@@ -3116,5 +3116,138 @@
 			<!-- itemdetailguide Popup S -->
 			
 		</div>
+
+
+		<!-- Review S -->
+		<div class="row container bg_white pt_20 pb_10 mt_10">
+			<div class="container txc wmx_950 fc">
+				<div class="col_s_9_of_10 col_m_10_of_12 txc fc">
+					<div class="txc col_s_10_of_10 col_m_6_of_12 fc">
+						<div class="ttl_header t_bold pb_10">レビューを書く</div>
+						<!-- Write S -->
+						<div class="ws_100 row table pt_10 pb_20 bb_gray">
+							<div class="ws_20 fl"><span class="my_pic"><img id="ItemImageForReview" alt="Image for Review" src="https://www.forever21.com/images/default_330/00320245-02.jpg"></span></div>
+							<div class="ws_80 fr pa_10 lh_normal vt">
+								<div class="ttl_header" id="DisplayNameForReview">チェッカートライアングルビキニトップ</div>
+								<div id="ItemPriceForReview"><div class="p_price ws_100 row mb_10">￥1,990</div></div>
+							</div>
+						</div>
+						<!-- After Write Review S -->
+						<div id="ReviewConfirmArea" style="display:none;" class="container row lh_normal pt_10 pb_10">
+							<p class="t_bold">投稿が完了しました。ありがとうございました！</p>
+							<p class="t_gray t_mid">投稿されたレビューは他のお客様がご購入時に参考になります。また、商品とサービスの改善にも努めてまいります。</p>
+						</div>
+						<!-- After Write Review E -->
+						<!-- Write Form S -->
+						<form id="WriteReviewForm" novalidate="novalidate">
+							<div id="ReviewWriteArea" class="ws_100 row">
+								<ul class="ws_100 row pb_10">
+									<li class="pt_10 pb_10 clearfix bb_dot">
+										<span class="inline row fl t_mid">評価 *</span>
+										<span class="inline row fr">
+											<p class="ReviewRatingInput">
+												<span id="starReviewRating" class="inline ex_big vt">
+													<span class="star_no"></span><span class="star_no"></span><span class="star_no"></span><span class="star_no"></span><span class="star_no"></span>
+												</span>
+											</p>
+	
+										</span>
+										<input id="hdReviewRating" name="hdReviewRating" type="hidden">
+									</li>
+																		<li class="clearfix">
+											<div class="ws_100 row">
+												<fieldset>
+													<span class="input_label focus">
+														<input type="text" id="txtReviewNickName" name="txtReviewNickName" maxlength="32" value="ゲスト" tabindex="1">
+														<label id="lbNickName" for="txtReviewTitle">ニックネーム *</label>
+														<p class="ws_100 row pb_5 t_small t_gray lh_normal txl">差し支えなければ、お客様のニックネームに変更してください。<br> 変更されない場合は「ゲストさん」として表示されます。</p>
+													</span>
+												</fieldset>
+											</div>
+										</li>
+									<li class="clearfix pt_10">
+										<div class="ws_100 row pt_5">
+											<fieldset>
+												<span class="input_label">
+													<span class="icon_delete" style="display: none;"></span>
+													<input type="text" id="txtReviewTitle" name="txtReviewTitle" tabindex="2">
+													<label for="txtReviewTitle">タイトル</label>
+												</span>
+											</fieldset>
+										</div>
+									</li>
+	
+									<li class="clearfix">
+										<div class="ws_100 row">
+											<fieldset>
+												<span class="input_label textfield">
+													<textarea cols="45" rows="5" class="ws_100" id="txtReviewDetail" name="txtReviewDetail" tabindex="3"></textarea>
+													<label for="txtReviewDetail">レビューを書く</label>
+													<p class="ws_100 row pb_5 t_small t_gray lh_normal txl">以下に該当する場合、掲載できない場合がございますのでご了承ください。<br>
+	・個人情報、URL、HTMLを含むコメント<br>
+	・他社ブランド名、個人・団体名を含むコメント<br>
+	・弊社または他者を誹謗中傷するコメントや公序良俗に反するコメント<br>
+	・その他弊社が不適切と判断するコメント<br>
+	お名前（姓・名）及びメールアドレスはレビュー投稿欄に表示されません。<br>
+	投稿をもって、当社が定めるプライバシーポリシー及び利用規約に同意されたものとみなします。</p>
+												</span>
+											</fieldset>
+										</div>
+									</li>
+	
+									<li class="clearfix">
+										<div class="ws_100 row">
+											<fieldset>
+												<span class="input_label focus">
+													<input type="text" id="txtReviewFirstName" name="txtReviewFirstName" tabindex="4">
+													<label id="lblFirstName" for="txtReviewFirstName">お名前（名)  *</label>
+												</span>
+											</fieldset>
+										</div>
+									</li>
+	
+									<li class="clearfix">
+										<div class="ws_100 row">
+											<fieldset>
+												<span class="input_label focus">
+													<input type="text" id="txtReviewLastName" name="txtReviewLastName" tabindex="5">
+													<label id="lblLastName" for="txtReviewLastName">お名前（姓） *</label>
+												</span>
+											</fieldset>
+										</div>
+									</li>
+									<li class="clearfix">
+										<div class="ws_100 row">
+											<fieldset>
+												<span class="input_label focus">
+													<input type="email" id="txtReviewEmailAddress" name="txtReviewEmailAddress" tabindex="6">
+													<label id="lblEmail" for="txtReviewEmailAddress">メールアドレス *</label>
+												</span>
+											</fieldset>
+										</div>
+									</li>
+								</ul>
+								<!-- 20190416 S -->
+								<div class="ws_100 row t_small t_gray lh_normal txl pb_20">
+									<div class="fl">
+										<input type="checkbox"><label></label>
+									</div>
+									<div class="col_s_9_of_10 pl_10">
+										本登録をもって、本サイトのプライバシーポリシーと利用規約に同意いただいたとものとみなし、ご登録いただいた個人情報はプライバシーポリシー記載の目的に基づき、FOREVER 21国内外の関連提携会社（アメリカ、EU加盟国、日本、韓国）に転送、保管されることに承諾いただいたことといたします。
+									</div>
+								</div>
+								<!-- 20190416 E -->
+								<!-- Write Form E -->
+								<button class="ws_100 btn_big bg_black t_white" onclick="fnWriteReview(); return false;">投稿する</button>
+								<p class="t_pink t_small t_gray lh_normal txl pt_10">プライバシーポリシー、ご利用規約に同意する（チェックボックス）を選択してください</p><!-- 20190416 -->
+								<p class="ws_100 row pt_10 t_red lh_normal" style="display:none;" id="ReviewErrorMsg"></p>
+							</div>
+							<!-- Write E -->
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Review E -->
 	</body>
 </html>
