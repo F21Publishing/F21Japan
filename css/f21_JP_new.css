@@ -1,5 +1,5 @@
 /*
-  * Forever21 JP v1.1.1 03/15/2019 - Version 1
+  * Forever21 JP v1.1.1 07/04/2019 - Version 1
   * Copyright Forever21
   * Updated by Namhee Kim
 */
@@ -908,11 +908,11 @@ main, #main, footer, .r_container, .cookie, .flex-modal-item {
   background: url("/shop/_common/images/btn_storeZoom.gif") no-repeat left top;
 }
 
-/* 20190214 iframe checkout
-#card_type_selection li {
-  width: 100% !important;
+/* sign up */
+.signup_wrapper .no_text {
+  color:#f4dadb;height:0px
 }
- */
+
 /* ============================== */
 /* Medium Desktop Code            */
 /*================================*/
