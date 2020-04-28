@@ -1,5 +1,5 @@
 /*
-  * Forever21 JP v1.1.1 09/17/2019 - Version 1
+  * Forever21 JP v1.1.1 09/20/2019 - Version 1
   * Copyright Forever21
   * Updated by Namhee Kim
 */
@@ -123,6 +123,20 @@
   font-family:"Source Sans Pro",Helvetica,Arial,sans-serif;
   font-weight:700
 }
+
+/* 20190920 namhee */
+.t_barlow {
+    font-family: "Barlow Condensed",Arial,Helvetica,sans-serif;
+    font-weight: 600
+}
+.t_source {
+    font-family: "Source Sans Pro",Helvetica,Arial,sans-serif
+}
+.t_source_bold {
+    font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+    font-weight: 700
+}
+
 /* ============================== */
 /* Loading Code                   */
 /*================================*/
